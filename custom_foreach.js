@@ -1,4 +1,4 @@
-// custom foreach function 
+// custom foreach() 
 
 
 
@@ -7,8 +7,11 @@ function customForEach(array, callback) {
      callback(array[i], i, array);
    }
  }
- 
 
+
+
+ 
+// examples
  const numbers = [1, 2, 3, 4, 5];
  
   let result = customForEach(numbers, function(a,b,c){
